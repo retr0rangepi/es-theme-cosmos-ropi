@@ -1,0 +1,48 @@
+<theme>
+	<formatVersion>4</formatVersion>
+	<include>./../theme.xml</include>
+
+	<view name="system">
+		<image name="logo">
+			<path>./_inc/system.png</path>
+		</image>
+		 <image name="system-overlay" extra="true">
+         <origin>0 0</origin>
+         <pos>0.200 -0.1655</pos>
+         <size>1 1</size>
+         <tile>false</tile>
+         <path>./_inc/overlay.png</path>
+		 </image>
+		<image name="system-cartart" extra="true">
+         <origin>0 0</origin>
+         <pos>0.280 -0.1655</pos>
+         <size>1 1</size>
+         <tile>false</tile>
+         <path>./_inc/cartart.png</path>
+		 </image>
+	</view>
+	<view name="detailed, video">
+                <image name="crt" extra="true">
+                   <origin>0 0</origin>
+                   <pos>0 0</pos>
+                   <size>1 1</size>
+                   <path>./_inc/crt.png</path>
+                </image>
+    <video name="md_video">
+         <origin>0 0</origin>
+         <pos>0.225 0.342</pos>
+		 <size>0.270 0.375</size>
+         <zIndex>5</zIndex>
+         <delay>0.01</delay>
+         <default>./_inc/videos/static.mp4</default>
+         <showSnapshotNoVideo>false</showSnapshotNoVideo>
+         <showSnapshotDelay>false</showSnapshotDelay>
+      </video>
+	<image name="md_marquee">
+         <pos>0.175 0.029</pos>
+         <origin>0 0</origin>
+         <size>0.370 0.160</size>
+      </image>
+	</view>
+
+</theme>
